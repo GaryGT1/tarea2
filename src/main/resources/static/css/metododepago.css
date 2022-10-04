@@ -1,0 +1,110 @@
+nuevo-menu {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+nuevo-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+#main {
+    position: relative;
+    width: 550px;
+    height: 330px;
+    left: 30px;
+    border-radius: 10px;
+
+
+    background-color: white;
+}
+
+#izquierda {
+    background:
+        url("https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    height: calc(100% + 0px);
+    width: 40%;
+    top: -25px;
+    left: -20px;
+    padding: 05px 25px;
+    color: aqua;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+#izquierda #head {
+    opacity: 0.95;
+}
+
+#right {
+    position: absolute;
+    width: calc(60% - 40px);
+    height: 100%;
+    top: 0;
+    left: 40%;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    padding-left: 20px;
+}
+
+#right form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+#right form input,
+#right form select {
+    appearance: none;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+
+    padding: 15px;
+    margin-top: 2.5px;
+    position: relative;
+}
+
+#right form .form-field {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    right:70%;
+    margin-bottom: 12.5px;
+}
+
+#right form #fecha {
+    display: flex;
+    justify-content: space-between;
+}
+
+#right form #fecha select {
+    width: 45%;
+}
+
+#right form button{
+    background: aqua;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 12pt;
+    margin-top: 10px;
+}
+
+#right form button:hover {
+    background: transparent;
+    box-shadow: 0 0 0 3px;
+
+}

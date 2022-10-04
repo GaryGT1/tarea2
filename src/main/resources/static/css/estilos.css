@@ -1,0 +1,78 @@
+header {
+    text-align: center;
+    color: black;
+}
+
+article header {
+    text-align: center;
+    background-color:  dimgrey;
+    color:  aqua;
+}
+figcaption{
+    font-size: 30px;
+}
+
+
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 90px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav-menu-link:hover {
+    background-color: #024070;
+    font-size: 20px;
+    transition: 1s;
+}
+#botonarriba{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width: 40px;
+}
+
+.modelo {
+    margin-top : 100px ;
+    display : flex ;
+    background-color : gray ;
+    padding : 25px ;
+    color : #fff ;
+}
+.text {
+    padding-left : 25px ;
+}

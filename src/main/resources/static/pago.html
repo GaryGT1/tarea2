@@ -1,0 +1,78 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/metododepago.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="nuevo-menu" style="background-color: gray">
+        <header class="header" id="principio">            
+            <nav class="nav">
+                <a href="video.html" class="nav-link logo">SourceMemories</a>
+                <ul class="nav-menu">
+
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="modelos.html">Modelos</a></li>                   
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="about.html">About</a></li>       
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="home.html">Ropa</a></li> 
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="perfil.html">Registro</a></li> 
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="user.html">Usuario</a></li> 
+
+                </ul> 
+            </nav>
+
+            <main id="main">
+                <section id="izquierda">
+                    <div id="head">
+                        <h1 style="color: aqua">Metodo de pago</h1>
+
+                    </div>
+                    <h3>Total ₡10000</h3>
+                </section>
+                <section id="right">
+                    <h1>Compra</h1>
+                    <form action="#">
+                        <div id="form-card" class="form-field">
+                            <label for="cc-number">Numero de tarjeta:</label>
+                            <input id="CVV-number" maxlength="19" placeholder="1111 2222 3333 4444" required>
+                        </div>
+                        <div id="fecha-forma" class="form-field">
+                            <label for="expiry-month">Expiracion:</label>
+                            <div id="fecha">
+                                <select id="Fecha-expiracion" required>
+                                    <option id="trans-label_month" value="" selected="selected">Mes</option>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                                <select id="expiry-year" required>
+                                    <option id="trans-label_year" value="" selected="selected">Año</option>
+                                    <option value="2018">18</option><option value="2019">19</option><option value="2020">20</option><option value="2021">21</option><option value="2022">22</option><option value="2023">23</option><option value="2024">24</select>
+                            </div>
+                        </div>
+
+                        <div id="form-sec-code" class="form-field">
+                            <label for="sec-code">CVV:</label>
+                            <input type="password" maxlength="3" placeholder="123" required>
+                        </div>
+                        <br>
+                        <button type="submit">Comprar</button>
+                    </form>
+                </section>
+            </main>
+
+
+        </header>
+
+    </body>
+</html>

@@ -1,0 +1,32 @@
+h1{
+    color: white;
+    text-align: center;
+
+}
+div.fotos{
+    margin: 10px 20px;
+
+    float: left;
+    width: 350px;
+}
+
+div.fotos img{
+    width: 100%;
+    height: auto;
+}
+
+div.carrito:hover{
+    border: 1px solid aqua;
+
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+    padding: 10px;
+}
+
+a:hover{
+    background-color : transparent ;
+    border : 2px solid ;
+}
